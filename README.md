@@ -24,3 +24,5 @@ learning Vuejs with Jeffrey Way :D https://laracasts.com/series/learn-vue-2-step
 - [episode 06: The Need for Computed Properties](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/6)
 
 使用 `computed` 来过滤出需要显示的数据
+
+- [Episode 07: Components 101](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/7)
