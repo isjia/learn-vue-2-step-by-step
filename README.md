@@ -40,3 +40,7 @@ components 嵌套
 - [Episode 10: Practical Component Exercise #2: Modal](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/10)
 
 使用 `$emit('event')` 向父组建传递事件
+
+- [Episode 11: Practical Component Exercise #: Tabs](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11)
+
+动手实现一个 Tabs component
