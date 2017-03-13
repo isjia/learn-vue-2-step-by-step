@@ -26,3 +26,9 @@ learning Vuejs with Jeffrey Way :D https://laracasts.com/series/learn-vue-2-step
 使用 `computed` 来过滤出需要显示的数据
 
 - [Episode 07: Components 101](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/7)
+
+component 基础
+
+- [Episode 08: Components Within Components](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/8)
+
+components 嵌套
