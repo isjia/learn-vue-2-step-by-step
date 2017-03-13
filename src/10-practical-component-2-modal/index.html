@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.css">
+    <style>
+      body {
+        padding: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="container">
+      <button v-on:click="isDisplay=true">Display Modal</button>
+      <modal v-show="isDisplay" v-on:close="isDisplay=false">
+        <p>say anything</p>
+      </modal>
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

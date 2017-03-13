@@ -36,3 +36,7 @@ components 嵌套
 - [Episode 09: Practical Component Exercise #1: Message](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/9)
 
 使用 propos 像子组建传值
+
+- [Episode 10: Practical Component Exercise #2: Modal](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/10)
+
+使用 `$emit('event')` 向父组建传递事件
