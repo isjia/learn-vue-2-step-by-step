@@ -32,3 +32,7 @@ component 基础
 - [Episode 08: Components Within Components](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/8)
 
 components 嵌套
+
+- [Episode 09: Practical Component Exercise #1: Message](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/9)
+
+使用 propos 像子组建传值
