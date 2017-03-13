@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="root">
+      <h2>Completed tasks</h2>
+      <ul>
+        <li v-for="task in tasks" v-if="task.completed" v-text="task.description"></li>
+      </ul>
+      <h2>Incompleted tasks</h2>
+      <ul>
+        <li v-for="task in incompleteTasks" v-text="task.description"></li>
+      </ul>
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <script type="text/javascript">
+      var app = new Vue({
+        el: '#root',
+        data: {
+          tasks: [
+            { description: "Go to the store", completed: true},
+            { description: "Finish screencast", completed: false},
+            { description: "Make donation", completed: true},
+            { description: "Clear inbox", completed: false},
+            { description: "Make dinner", completed: true},
+          ]
+        },
+        computed: {
+          incompleteTasks(){
+            // ES6 syntax
+            // return this.tasks.filter(task => !task.completed);
+
+            return this.tasks.filter(function(task){
+              return !task.completed;
+            })
+          }
+        }
+      })
+    </script>
+  </body>
+</html>
