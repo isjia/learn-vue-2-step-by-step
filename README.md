@@ -16,3 +16,7 @@ learning Vuejs with Jeffrey Way :D https://laracasts.com/series/learn-vue-2-step
 - [episode 04：Vue Event Listeners](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/4)
 
 优化episode 03的程序，用vue的方式来实现事件监听和触发。
+
+- [episode 05: Attribute and Class Binding](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/5?autoplay=true)
+
+使用`v-bind` 设定 class 和 attribute

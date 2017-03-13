@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .color-red {color: red}
+      .color-blue {color: blue}
+      .isLoading {color: red}
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <h1 v-bind:class="className">Hello</h1>
+      <button v-bind:title="title">Hover Over Me</button>
+      <button v-bind:class="{isLoading}" v-on:click="toggleClass">Click Me</button>
+      <button v-bind:disabled="disabled" v-on:click="toggleDisable">Enable</button>
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <script type="text/javascript">
+      var app = new Vue({
+        el: '#root',
+        data: {
+          title: 'The title is being set through Javascript.',
+          className: 'color-red',
+          isLoading: false,
+          disabled: false
+        },
+        methods: {
+          toggleClass(){
+            this.isLoading = !this.isLoading;
+          },
+          toggleDisable(){
+            this.disabled = !this.disabled;
+          }
+        }
+      })
+    </script>
+  </body>
+</html>
