@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.css">
+    <style>
+      body {
+        padding: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="container">
+      <progress-view inline-template>
+        <div> // inline-template 只能有一个子元素，因此都div包裹起来。
+          <h2>Your progress is {{completeRate}}%</h2>
+          <p><button @click="completeRate += 10">Add</button></p>
+        </div>
+      </progress-view>
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

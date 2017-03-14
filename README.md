@@ -54,3 +54,7 @@ components 嵌套
 - [Episode 14: Named Slots in a Nutshell](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/14)
 
 使用 slot name 属性来区分 template 中不同的slot
+
+- [Episode 15: Single-Use Components and Inline Templates](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/15)
+
+inline-template 只能有一个子元素，因此都div包裹起来。
