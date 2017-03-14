@@ -41,6 +41,10 @@ components 嵌套
 
 使用 `$emit('event')` 向父组建传递事件
 
-- [Episode 11: Practical Component Exercise #: Tabs](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11)
+- [Episode 11: Practical Component Exercise #3: Tabs](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11)
 
 动手实现一个 Tabs component
+
+- [Episode 12: Component Communication Example #1: Custom Events](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/12)
+
+自定义一个事件传递给父元素

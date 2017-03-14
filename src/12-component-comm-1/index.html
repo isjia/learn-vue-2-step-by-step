@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.css">
+    <style>
+      body {
+        padding: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="container">
+      <coupon @applied="onCouponApplied"></coupon>
+      <p v-show="isApplied">coupon is used.</p>
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
