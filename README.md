@@ -48,3 +48,9 @@ components 嵌套
 - [Episode 12: Component Communication Example #1: Custom Events](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/12)
 
 自定义一个事件传递给父元素
+
+- [Episode 13: Component Communication Example #2: Event Dispatcher](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/13)
+
+- [Episode 14: Named Slots in a Nutshell](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/14)
+
+使用 slot name 属性来区分 template 中不同的slot
