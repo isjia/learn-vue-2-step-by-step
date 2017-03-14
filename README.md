@@ -58,3 +58,16 @@ components 嵌套
 - [Episode 15: Single-Use Components and Inline Templates](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/15)
 
 inline-template 只能有一个子元素，因此都div包裹起来。
+
+- [Episode 16: Webpack and vue-cli](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/16)
+
+[Setting Up a vue project](http://vue-loader.vuejs.org/en/start/setup.html)
+
+```shell
+npm install -g vue-cli
+vue init webpack-simple hello-vue
+cd hello-vue
+npm install
+npm run dev # ready to go!
+```
+- [Episode 17: Hot Module Replacement](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/17)
